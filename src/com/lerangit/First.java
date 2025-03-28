@@ -73,6 +73,9 @@ public class First {
 		}
 		return merg;
 	}
+	public static void reverseArr(int arr[]) {
+		
+	}
 
 	public static void main(String[] args) {
 		int arr[]= {1,7,5,12,3,45,32,15,0,77,4,2,90,132,24,67,88};
