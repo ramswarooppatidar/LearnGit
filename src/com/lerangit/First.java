@@ -8,8 +8,8 @@ public class First {
 			boolean flag = false;
 			for(int j =i+1; j<arr.length; j++) {
 				if(arr[j]<min) {
-					min = arr[j];
 					minIndex = j;
+					min = arr[j];
 					flag = true;
 				}
 			}
@@ -22,6 +22,9 @@ public class First {
 		for(int i : arr) {
 			System.out.print(i+" ");
 		}
+	}
+	public static void reverseString(String s) {
+		
 	}
 
 	public static void main(String[] args) {
