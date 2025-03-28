@@ -10,8 +10,8 @@ public class First {
 			boolean flag = false;
 			for(int j =i+1; j<arr.length; j++) {
 				if(arr[j]<min) {
-					min = arr[j];
 					minIndex = j;
+					min = arr[j];
 					flag = true;
 				}
 			}
@@ -24,6 +24,10 @@ public class First {
 		for(int i : arr) {
 			System.out.print(i+" ");
 		}
+	}
+
+	public static void reverseString(String s) {
+		
 	}
 	public static int[] mergSort(int arr[], int n) {
 		if(arr.length == 1) {
@@ -73,6 +77,7 @@ public class First {
 		}
 		return merg;
 	}
+
 
 	public static void main(String[] args) {
 		int arr[]= {1,7,5,12,3,45,32,15,0,77,4,2,90,132,24,67,88};
